@@ -3,7 +3,7 @@ from transformers import AutoTokenizer, AutoModelForCausalLM
 import torch
 
 # Load model and tokenizer
-model_name = "./Qwen-Medical-Model"
+model_name = "Qwen-Medical-Model"
 tokenizer = AutoTokenizer.from_pretrained(model_name)
 model = AutoModelForCausalLM.from_pretrained(
     model_name,
